@@ -129,6 +129,7 @@ main {
 /* box description */
 
 .description {
+    text-transform: uppercase;
     font-weight: bold;
     color: black;
 }
