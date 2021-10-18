@@ -6,6 +6,7 @@
 
 html{
     font-size: 100%;
+    color: gray;
 }
 
 .clearfix {
@@ -17,7 +18,7 @@ html{
 /* main */
 main {
     background-color: cadetblue;
-    height: 800px;
+    /* height: 800px; */
     width: 70%;
     margin: 20px auto;
 }
@@ -41,4 +42,33 @@ main {
     height: 100%;
     margin: 0 30px;
     float: left;
+}
+
+/* immagini */
+.box-img {
+    position: relative;
+}
+
+#first-img {
+    position: relative;
+    width: 100%;
+}
+
+#second-img {
+    position: absolute;
+    width: 100%;
+    visibility: hidden;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.box-img:hover #second-img {
+    visibility: visible;
+}
+
+.sconto {
+    position: absolute;
+    bottom: 15px;
+    left: 0;
 }
