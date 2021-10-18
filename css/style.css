@@ -17,7 +17,7 @@ html{
 /* main */
 main {
     background-color: cadetblue;
-    height: 700px;
+    height: 800px;
     width: 70%;
     margin: 20px auto;
 }
@@ -28,9 +28,17 @@ main {
     height: 50%;
 }
 
+.row-down {
+    margin-top: 10px;
+    background-color: darkcyan;
+    width: 100%;
+    height: 50%;
+}
+
 .box {
     background-color: chocolate;
-    width: calc(33% - 5px) ;
+    width: calc(30% - 25px) ;
     height: 100%;
+    margin: 0 30px;
     float: left;
 }
