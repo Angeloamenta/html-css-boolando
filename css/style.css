@@ -65,6 +65,10 @@ main {
     visibility: visible;
 }
 
+.price {
+    font-size: 0.8em;
+}
+
 .hearts {
     position: absolute;
     top: 10px;
@@ -90,6 +94,17 @@ main {
     position: absolute;
     bottom: 15px;
     left: 50px;
+    background-color: green;
+    color: white;
+    padding: 5px;
+    z-index: 10;
+    font-weight: bold;
+}
+
+.sost-green-down {
+    position: absolute;
+    bottom: 15px;
+    left: 0px;
     background-color: green;
     color: white;
     padding: 5px;
